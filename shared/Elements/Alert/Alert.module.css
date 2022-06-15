@@ -1,0 +1,6 @@
+/**
+ * Scoped postcss modules with apply, here we are applying tailwind classes. :)
+ */
+.alert {
+  @apply font-semibold text-white uppercase flex items-center  py-2 px-4 h-16 z-30 transition ease-in-out delay-150;
+}

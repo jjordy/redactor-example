@@ -1,0 +1,24 @@
+.button {
+  @apply w-full px-4 py-3 font-semibold transition ease-in-out delay-75 shadow-xl rounded flex items-center;
+
+}
+
+.primary {
+  @apply bg-indigo-500 text-white hover:bg-indigo-600;
+}
+
+.secondary {
+  @apply bg-slate-400 text-slate-800 hover:bg-slate-500;
+}
+
+.success {
+  @apply bg-green-500 text-white hover:bg-green-600;
+}
+
+.error {
+  @apply bg-red-400 text-white hover:bg-red-500;
+}
+
+.info {
+  @apply bg-indigo-400 text-indigo-900 hover:bg-indigo-500;
+}

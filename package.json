@@ -1,0 +1,44 @@
+{
+  "name": "redactor-simple-nextjs-example",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Nirvana stack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "lint": "prettier -c **/*.{js,ts,tsx}",
+    "lint:fix": "prettier --write **/*.{js,ts,tsx}",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Jordan Addison",
+  "license": "MIT",
+  "dependencies": {
+    "@headlessui/react": "^1.6.4",
+    "@heroicons/react": "^1.0.6",
+    "classnames": "^2.3.1",
+    "debug": "^4.3.4",
+    "fabric": "^5.2.1",
+    "jotai": "^1.7.2",
+    "lodash": "^4.17.21",
+    "lowdb": "^3.0.0",
+    "nanoid": "^4.0.0",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-hook-form": "^7.32.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/fabric": "^4.5.8",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^17.0.42",
+    "@types/react": "^18.0.12",
+    "autoprefixer": "^10.4.7",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.1.2",
+    "typescript": "^4.7.3"
+  }
+}
